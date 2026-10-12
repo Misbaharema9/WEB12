@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi</title>
+</head>
+<body bgcolor="aqua">
+
+    <body>
+
+    <!-- ===== KERANGKA UTAMA ===== -->
+    <table border="1" width="100%" align="center" cellspacing="0" cellpadding="0">
+
+        <!-- ===== BANNER IMAGE ===== -->
+        <tr>
+            <td colspan="5" style="padding:0;">
+                <img src="img/download.jpg" style="width:100%; height:280px; object-fit:cover; object-position: center; display:block;">
+            </td>
+        </tr>
+
+        <!-- ===== MENU ===== -->
+        <tr bgcolor="#003366" align="center">
+            <td width="20%"><a href="Home.html" ><font color="white">Home</font></a></td>
+            <td width="20%"><a href="produk.html" ><font color="white">Produk</font></a></td>
+            <td width="20%"><a href="galeri.html" ><font color="white">Galeri</font></a></td>
+            <td width="20%"><a href="keranjang.html"><font color="white">Keranjang</font></a></td>
+            <td width="20%"><a href="hubungi.html"><font color="white">Hub Kami</font></a></td>
+        </tr>
+
+        <!-- ===== ISI BARIS 2: kotak - kotak - teks ===== -->
+                            <form action="" method="post">
+                            <table>
+                                <tr>
+                                    <td>Username</td>
+                                    <td><input type="text" name="txtuser" id="" placeholder="hanya huruf" pattern="[A-Za-z ]+"></td>
+                                </tr>
+                                <tr>
+                                    <td>Password</td>
+                                    <td><input type="password" name="txtpass" id="" placeholder="min 6 max10" pattern="[A-Za-z0-9]+ {6,10}"></td>
+                                </tr>
+                                <tr>
+                                    <td>Alamat</td>
+                                    <td><textarea name="txtalm" id="" rows="4"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>Jenis Kelamin</td>
+                                    <td><input type="radio" name="jkel" id="">Pria <input type="radio" name="jkel" id="">Wanita</td>
+                                </tr>
+                                <tr>
+                                    <td>Jurusan</td>
+                                    <td><select name="txtjur" id="">
+                                        <optgroup label="FTD">
+                                            <option value="TI">Teknik Informatika</option>
+                                            <option value="SK">Sistem Komputer</option>
+                                            <option value="DKV">Desain Komunikasi Visual</option>
+                                        </optgroup>
+                                        <optgroup label="FEB">
+                                            <option value="AK">Akuntansi</option>
+                                            <option value="MAN">Manajemen</option>
+                                        </optgroup>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Kirim"></td>
+                                </tr>
+                            </table>
+                            </form>    
+                        </table>
+                        
+            </td>
+        </tr>
+
+        <!-- ===== FOOTER ===== -->
+        <tr bgcolor="#003366">
+            <td colspan="5" align="center">
+                <font color="white" size="2">&copy;Tahun 2026</font>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
